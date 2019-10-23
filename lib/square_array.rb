@@ -3,6 +3,7 @@ def square_array(numbers)
   
   while numbers(count) do 
   puts numbers(count)
+  count **= 1 
  end 
 end 
 
