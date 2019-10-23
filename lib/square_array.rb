@@ -1,11 +1,9 @@
-def square_array(Array)
-     count = 0
-     
-     
-while Array(count) do 
-  puts Array(count)
-  count **= 1
- end
+def square_array(numbers)
+  count = 0 
+  
+  while numbers(count) do 
+  puts numbers(count)
+ end 
 end 
 
 numbers = [1,2,3]
