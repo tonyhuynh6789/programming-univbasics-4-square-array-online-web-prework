@@ -1,9 +1,9 @@
-def square_array(array)
+def square_array(Array)
      count = 0
      
      
-while array(count) do 
-  puts array(count)
+while Array(count) do 
+  puts Array(count)
   count **= 1
  end
 end 
