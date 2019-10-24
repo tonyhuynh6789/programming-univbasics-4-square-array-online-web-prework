@@ -6,6 +6,6 @@ while count < numbers.size
 result = number[count] ** 2
 count += 1
 end 
-return square_array(numbers)
+return numbers
 end 
 
