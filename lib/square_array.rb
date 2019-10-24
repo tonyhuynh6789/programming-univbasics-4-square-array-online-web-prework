@@ -1,14 +1,12 @@
 def square_array(numbers)
   count = 0 
   
-  while count < numbers.length do 
-  puts numbers(count)
-  count **= 1 
- end 
+  while count < numbers.length 
+    result[count] = numbers[count] ** 2
+    i += 1
+  end 
+  return 
 end 
-
-numbers = [1,2,3]
-square_array(numbers)
 
 
 
