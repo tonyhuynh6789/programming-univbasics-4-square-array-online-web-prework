@@ -3,5 +3,9 @@ def square_array(numbers)
   count = 0 
   
 while count < numbers.size
-number
+result = number[count] ** 2
+count += 1
+end 
+return result
+end 
 
